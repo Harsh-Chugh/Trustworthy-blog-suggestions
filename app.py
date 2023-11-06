@@ -6,9 +6,10 @@ import random
 from urllib.parse import urlparse
 
 
-client = Metaphor(api_key="METAPHOR_API_KEY")
+client = Metaphor(api_key="YOUR_METAPHOR_API_KEY")
 
-token = 'BARD_API_KEY'
+token = 'YOUR_LLM_MODEL_API_KEY'
+
 # bard = bardapi.core.Bard(token)
 
 TOPIC_MESSAGE = "You are an intelligent assistant. I will provide you a text and you need to find out the content category of that text in no more than 4 words. While generating the response, keep that in mind that you should output only topic and no additional extra words: "
